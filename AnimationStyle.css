@@ -1,0 +1,8 @@
+@keyframes slide{
+    from{
+        margin-right: -100px;
+    }
+    to{
+        margin-right:0;
+    }
+}

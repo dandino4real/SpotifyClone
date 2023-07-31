@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+   
+}
+
+/****** import file list *************/
+@import url(./AnimationStyle.css);
+
+
+
+
+
+/****Navbar Section CSS*************/
+.SpotifyLogo {
+    width:132px;
+    height: 41.89px;
+    filter: brightness();
+    color:white;
+}
+.SpotifyLogo a{
+    color:white;
+}
+.SpotifyLogo .svelte-1gcdbl9{
+    fill:currentColor;
+    
+}
+.NavbarMarginAll{
+    margin: 0px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.NavbarContainer{
+    height:80px;
+    width: 100%;
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;   
+}
+.NavbarList{
+    animation: slide 1s ;
+}
+.NavbarList ul{
+    display: flex;
+    color:white;
+}
+.NavbarList ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.NavbarList ul li{
+    list-style: none;
+    margin:0px 15px;
+}
+/****************************************************/
+/*#993399*/
+.HeaderContainer{
+    background-color:#993399;
+    height: 600px;
+}
+.HeaderRight{
+    height: 400px;
+    width: 450px;
+    background-image:url('./HeaderImage/header.jfif');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.HeaderMarginALL{
+    margin: 0px 100px;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.SpotityPremiumText{
+    font-size: 18px;
+    font-weight: bold;
+    margin:50px 0px;
+}
+.Get3Free{
+    font-size: 65px;
+    margin:25px 0px;
+}
+.TagLine{
+    font-size: 25px;
+    margin:25px 0px;
+    width: 600px;
+}
+.ButtonFree3Month{
+    width: 200px;
+    height: 50px;
+    background-color:#000;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    border-radius:50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin:25px 0px;
+}
+.TermAndCondition{
+    margin:25px 0px;
+    width:600px;
+    font-size: 15px;
+}

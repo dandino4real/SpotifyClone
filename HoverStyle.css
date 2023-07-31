@@ -1,0 +1,7 @@
+/** navbar hover effect */
+.NavbarList ul li a:hover{
+    color:rgb(0,255,0);
+}
+.ButtonFree3Month:hover{
+    transform: scale(1.05);
+}
